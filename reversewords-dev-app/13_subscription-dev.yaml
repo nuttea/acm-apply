@@ -28,10 +28,3 @@ spec:
     placementRef:
       kind: PlacementRule
       name: development-clusters
-  packageOverrrides:
-  - packageName: kustomization
-    packageOverrides:
-    - value: |
-        patchesStrategicMerge:
-        - overlays/deployment.yaml
-  
